@@ -1,7 +1,8 @@
-streamlit 
+streamlit
+sendgrid
+Pillow
 pandas 
 datetime
-email.mime.text
 MIMEText
 math
 random
