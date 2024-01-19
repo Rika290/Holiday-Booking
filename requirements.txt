@@ -1,7 +1,7 @@
 streamlit 
 pandas 
 datetime
-smtplib
+email.mime.text
 MIMEText
 math
 random
