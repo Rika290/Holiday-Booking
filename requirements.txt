@@ -1,6 +1,5 @@
 streamlit
 pandas 
 datetime
-smtplib==3.8
 math
 random
