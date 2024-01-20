@@ -69,7 +69,7 @@ elif(choice=='Hotels'):
                     msg['Subject'] = 'Hotel booking'
                     server = smtplib.SMTP('smtp.gmail.com', 587)
                     server.starttls()
-                    server.login('rithikasekaran29@gmail.com', 'ordj bsin kwzd mywp')
+                    server.login('rithikasekaran29@gmail.com', 'ordj bsin kwzd mywp') #mail id, password from 2 step verification
                     server.sendmail('rithikasekaran29@gmail.com',email_receiver, msg.as_string())
                     server.quit()                
                     st.header('Booked successfully')
