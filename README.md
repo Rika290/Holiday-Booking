@@ -2,7 +2,7 @@
 ![image](https://github.com/Rika290/Hotel-booking-app/assets/126352441/8603aba4-c812-433d-bfad-5a053ca89fda)
 
 
-- App link :- https://hotel-booking-app-8yyzqf4xn2giwqzajpbq9d.streamlit.app/ 
+- App link :- https://hotel-booking-app-y36jbyn9ea4vcddpa5rbt9.streamlit.app/
 
 *ABOUT*:-
 - This is a web app of a fictitious travel agency called '@urDesti' which helps in choosing and booking hotels across India at comparatively low prices.
