@@ -41,6 +41,7 @@ elif(choice=='Hotels'):
                 msg = MIMEText(ms)
                 msg['From'] = 'rithikasekaran29@gmail.com'
                 msg['To'] = email_receiver
+                msg['Subject'] = 'OTP for hotel booking'
                 server = smtplib.SMTP('smtp.gmail.com', 587)
                 server.starttls()
                 server.login('rithikasekaran29@gmail.com', 'ordj bsin kwzd mywp')
@@ -94,7 +95,7 @@ elif(choice=='Hotels'):
                 msg = MIMEText(ms)
                 msg['From'] = 'rithikasekaran29@gmail.com'
                 msg['To'] = email_receiver
-                msg['Subject'] = 'Hotel booking'
+                msg['Subject'] = 'OTP for hotel booking'
                 server = smtplib.SMTP('smtp.gmail.com', 587)
                 server.starttls()
                 server.login('rithikasekaran29@gmail.com', 'ordj bsin kwzd mywp')
