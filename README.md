@@ -5,12 +5,14 @@
 - App link :- https://hotel-booking-app-8yyzqf4xn2giwqzajpbq9d.streamlit.app/ 
 
 *ABOUT*:-
-- This is a web app of a fictitious travel agency called '@urDesti' which helps in choosing and booking hotels across India at comparatively low prices
+- This is a web app of a fictitious travel agency called '@urDesti' which helps in choosing and booking hotels across India at comparatively low prices.
+
 
 *TOOLS USED*:-
-1. SQL
-3. Python 
-4. Streamlit 
+1. This app is developed by fully utilizing the Python programming language
+   -  Pandas the Python library is used for viewing the data in form of data frames
+   -  Streamlit, an open source framework under Python is used as an interface to create this web application
+2. MySQL, an open-source Relational Database Management System (RDBMS) is used for generating the data.
 
 *METHOD*:
 1. Database creation:
@@ -18,15 +20,32 @@
 - Data on places, i.e, North and South were added
 - Table for bookings was created which will accept the input from user
 - Once saved, these tables were exported as csv files.
+Tables:-
+1) Destination tables:
+ - In the MySQL Workbench, tables called North and South were created
+ - Entries like States of (North India,South India), famous tourist places in theose States, along with a ID number were added
+ -  In this case, the ID numbers created are unique and hence made as the primary key of both tables
+ 
+ 2) Table for Hotels/Resorts
+- A table called Hotels was created
+- Entries like S.No,Name,Places were added
+- Here, the column S.No has only unique values  and therefore is the primary key
 
-2. Backend:
+3) Table for Booking
+- A table which gets info from customers for reservation of rooms and travel
+- Details like OTP,name of the customer are included
+- Since OTP is unique, it is considered as the primary key
+ 
+2.Features integrated:
+
+a. Backend:
 - The csv files are imported to Google Colab notebook
 - With Pandas in python, the values from data tables can be accessed and manipulated
 - OTP Generator:
    - random model was used for creating the OTP; Using smtplib and MIMEText;
    - an email containing the OTP will be sent to the mail id given by the user
 
-3. Frontend:
+b. Frontend:
 - The welcome page icon and heading were setup using streamlit
 - An user can navigate to Dashboard for viewing further details
 - When the menu bar is accessed, user can choose any place and fill the details accordingly along with OTP
