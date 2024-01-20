@@ -20,7 +20,9 @@
 - Data on places, i.e, North and South were added
 - Table for bookings was created which will accept the input from user
 - Once saved, these tables were exported as csv files.
+  
 Tables:-
+
 a. Destination tables:
  - In the MySQL Workbench, tables called North and South were created
  - Entries like States of (North India,South India), famous tourist places in theose States, along with a ID number were added
