@@ -21,17 +21,17 @@
 - Table for bookings was created which will accept the input from user
 - Once saved, these tables were exported as csv files.
 Tables:-
-1) Destination tables:
+a. Destination tables:
  - In the MySQL Workbench, tables called North and South were created
  - Entries like States of (North India,South India), famous tourist places in theose States, along with a ID number were added
  -  In this case, the ID numbers created are unique and hence made as the primary key of both tables
  
- 2) Table for Hotels/Resorts
+b. Table for Hotels/Resorts
 - A table called Hotels was created
 - Entries like S.No,Name,Places were added
 - Here, the column S.No has only unique values  and therefore is the primary key
 
-3) Table for Booking
+c. Table for Booking
 - A table which gets info from customers for reservation of rooms and travel
 - Details like OTP,name of the customer are included
 - Since OTP is unique, it is considered as the primary key
