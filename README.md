@@ -9,7 +9,7 @@
 
 
 *TOOLS USED*:-
-1. This app is developed by fully utilizing the Python programming language
+1. This app is built using Python programming language
    -  Pandas the Python library is used for viewing the data in form of data frames
    -  Streamlit, an open source framework under Python is used as an interface to create this web application
 2. MySQL, an open-source Relational Database Management System (RDBMS) is used for generating the data.
